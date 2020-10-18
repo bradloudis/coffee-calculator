@@ -1,8 +1,11 @@
-html {
+html,
+body {
   background-color: salmon;
+  margin: 0;
 }
 
 .header {
   background-color: snow;
   color: black;
+  text-align: center;
 }
