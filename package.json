@@ -1,9 +1,10 @@
 {
   "name": "coffee-calculator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "express": "^4.17.1",
     "jquery": "^3.5.1"
   },
@@ -13,5 +14,15 @@
     "start": "node server/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradloudis/coffee-calculator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bradloudis/coffee-calculator/issues"
+  },
+  "homepage": "https://github.com/bradloudis/coffee-calculator#readme",
+  "description": ""
 }
